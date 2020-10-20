@@ -6,3 +6,7 @@
   position: relative;
   left: 12em;
 }
+
+.nav-link {
+  cursor: pointer;
+}
