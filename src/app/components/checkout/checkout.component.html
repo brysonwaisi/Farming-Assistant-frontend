@@ -1,1 +1,108 @@
-<p>checkout works!</p>
+<body>
+    
+    <div id="grid-container" class="row">
+      <div class="grid-item col" id="grid-item-left">
+          <div id="contain">
+              <h6> <span><i class="fa fa-credit-card-alt" aria-hidden="true"></i></span> PAYMENT CHECKOUT</h6>
+              <div id="icon">
+                <i class="fa fa-cc-visa top" aria-hidden="true" style="font-size:35px; color: rgb(226, 209, 226);"></i>
+                <i class="fa fa-cc-paypal top" aria-hidden="true" style="font-size:35px; color: rgb(199, 136, 199);"></i>
+                <i class="fa fa-cc-mastercard top" aria-hidden="true" style="font-size:35px; color:  rgb(78, 119, 11);"></i>
+              </div>
+              
+              <div class="formContainer">
+                  <form action="">
+                      <div>
+                          <label for="name">NAME</label>
+                          <input type="text" id="name" name="username" placeholder="Ridwan Raji">
+                      </div>
+                      <div>
+                          <label for="number">CARD NUMBER</label>
+                          <input type="number" id="number" name="card-number" placeholder="0000 - 0000 - 0000 - 0000" step="4">
+                      </div>
+                      <div id="grid" class="row">
+                          <div id="grid-left" class="col">
+                              <div>
+                                  <label for="expiry">EXP DATE</label>
+                                  <input type="month" id="expiry" name="expiry-date">
+                              </div>
+                          </div>
+                          <div id="grid-right" class="col">
+                              <label for="cvv">CVV</label>
+                              <input type="number" id="cvv" name="cvv">
+                          </div>
+                      </div>
+                      <div>
+                          <label for="payment"></label>
+                          <input type="submit" id="payment" value="MAKE A PAYMENT">
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <div class="grid-item col" id="grid-item-right">
+          <div class="container" >
+            <h5>PAYMENT SUMMARY</h5>
+            <table class="table table-borderless" >
+              <thead>
+                <tr>
+                  <th><i class="fa fa-shopping-cart" aria-hidden="true"></i> CARTS</th>
+                  <th>QTY</th>
+                  <th>PRICE (<i class="fa fa-eur" aria-hidden="true"></i>)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Yam</td>
+                  <td>2</td>
+                  <td>1000</td>
+                </tr>
+                <tr>
+                    <td>Beans</td>
+                    <td>1</td>
+                    <td>550</td>
+                </tr>
+                <tr>
+                    <td>Rice</td>
+                    <td>1</td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>Millet</td>
+                    <td>1</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>Guinea Corn</td>
+                    <td>1</td>
+                    <td>350</td>
+                </tr>
+                <!-- <tr>
+                    <td>Cassava</td>
+                    <td>1</td>
+                    <td>650</td>
+                </tr> -->
+                <tr>
+                    <th>TOTAL</th>
+                    <th></th>
+                    <th>10500</th>
+                </tr>
+              </tbody>
+            </table>
+              
+          </div>
+  
+      </div>
+    </div>
+  
+  
+  
+  
+  
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- Popper JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>             -->
+</body>
