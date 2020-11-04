@@ -1,0 +1,12 @@
+.nav-item {
+  padding-left: 30px;
+}
+
+.ml {
+  position: relative;
+  left: 12em;
+}
+
+.nav-link {
+  cursor: pointer;
+}
