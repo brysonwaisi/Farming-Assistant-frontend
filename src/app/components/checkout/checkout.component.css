@@ -1,3 +1,4 @@
+
 body  {
   background-color: rgb(226, 209, 226);
 }
@@ -178,4 +179,7 @@ td {
   form div:last-child {
     padding-bottom: 20px;
   }
+
+p {
+  padding: 40px;
 }
